@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { SearchForm } from './SearchForm';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <input
-            type='text'
-            placeholder='pokemon number'
-          />
-          <br/>
-          <button>
-            search
-          </button>
+          <SearchForm/>
         </header>
       </div>
     );
